@@ -13,6 +13,7 @@
 		2F7582E420F5D53D00518EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7582E320F5D53D00518EDD /* Assets.xcassets */; };
 		2F7582E720F5D53D00518EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7582E520F5D53D00518EDD /* LaunchScreen.storyboard */; };
 		2F7582EA20F5D53D00518EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7582E920F5D53D00518EDD /* main.m */; };
+		2F90FDFA20FD9818008F4072 /* UITextView+WZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F90FDF920FD9817008F4072 /* UITextView+WZB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2F7582E620F5D53D00518EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7582E820F5D53D00518EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F7582E920F5D53D00518EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F90FDF820FD9817008F4072 /* UITextView+WZB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WZB.h"; sourceTree = "<group>"; };
+		2F90FDF920FD9817008F4072 /* UITextView+WZB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WZB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		2F7582D920F5D53700518EDD /* TableViewRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				2F90FDF820FD9817008F4072 /* UITextView+WZB.h */,
+				2F90FDF920FD9817008F4072 /* UITextView+WZB.m */,
 				2F7582DA20F5D53700518EDD /* AppDelegate.h */,
 				2F7582DB20F5D53700518EDD /* AppDelegate.m */,
 				2F7582DD20F5D53700518EDD /* ViewController.h */,
@@ -144,6 +149,7 @@
 				2F7582DF20F5D53700518EDD /* ViewController.m in Sources */,
 				2F7582EA20F5D53D00518EDD /* main.m in Sources */,
 				2F7582DC20F5D53700518EDD /* AppDelegate.m in Sources */,
+				2F90FDFA20FD9818008F4072 /* UITextView+WZB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
